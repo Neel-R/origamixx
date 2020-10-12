@@ -1,0 +1,63 @@
+
+h1 {
+    color:rgb(80, 18, 122)
+}
+
+*{
+    border: inset ;
+}
+.Header {
+    display: flex; /* or inline-flex */
+    background-color: rgb(214, 142, 59);
+    justify-content: space-between;
+    color: rgb(80, 20, 116);
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+  }
+.Menu{
+    display: flex; /* or inline-flex */
+    justify-content: space-between;
+    background-color: burlywood;
+    padding : 15px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: #ffffff
+}
+.Grid{
+    display: flex; /* or inline-flex */
+    flex-wrap: wrap;
+    border-radius: 20px;
+    font-family: fantasy;
+} 
+body {
+    color: rgb(89, 0, 190);
+    background-color: bisque;
+}
+.Design{
+    border-radius: 20px;
+    background-color: blanchedalmond;
+    padding: 30px;
+    margin: 25px;
+    width: 500px;
+    font-family: fantasy;
+}
+a:link {
+    color: rgb(99, 13, 13);
+}
+a:visited{
+    color: rgb(99, 13, 13)
+}
+.Design p{
+    position: absolute;
+    transform: translate(0%,-700%);
+    opacity: 0;
+}
+.Design:hover p{
+    opacity: 1;
+}
+.Design:hover img{
+    opacity: 33%;
+
+}
